@@ -1,0 +1,46 @@
+/* CSS files add styling rules to your content */
+html, body {height:100%;}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 4em;
+}
+
+.container h1 {
+  color: #000000;
+  text-align: center;
+  font-size: 72px;
+}
+
+#image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#image2 {
+  width: 100%;
+}
+
+#image3 {
+  width: 100%;
+}
+
+#image4 {
+  width: 100%;
+}
+
+#image5 {
+  width: 100%
+}
+
+.bg-primary2 {
+  background-color: black;
+} 
+
+@media only screen and (max-width: 300px) {
+  .container h1 {
+    font-size: 45px;
+  }
+}
