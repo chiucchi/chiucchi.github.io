@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A.I. Research</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <!-- import roboto font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- import the webpage's javascript file -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary2">
+      <div class="container">
+        <!--a class="navbar-brand" href="#">
+          <img src="http://placehold.it/150x50?text=Logo" alt="" />
+        </a-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <!-- Here we need to add classes to change layout of menu -->
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li id="one" class="nav-item">
+              <a class="nav-link" href="#">Problema</a>
+            </li>
+            <li id="two" class="nav-item">
+              <a class="nav-link" href="#">Objetivo</a>
+            </li>
+            <li id="three" class="nav-item">
+              <a class="nav-link" href="#">Justificativa</a>
+            </li>
+            <li id="four" class="nav-item">
+              <a class="nav-link" href="#">Mapa Mental</a>
+            </li>
+            <li id="five" class="nav-item">
+              <a class="nav-link" href="https://linktr.ee/gchiucchi">+Info</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content of the website -->
+    <div class="container">
+      <h1>A medicina em conjunto com novas tecnologias</h1>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <img
+            class="img-responsive"
+            id="image1"
+            src="https://cdn.glitch.com/af986acf-4d2e-4df5-aaea-8e7a2ab1cbff%2Fismedicinere.jpg?v=1586560967244"
+          />
+        </div>
+      </div>
+      <br />
+
+      <div class="row">
+        <div class="col-sm-12">
+          <p>
+            A inteligência artificial é uma ciência que trabalha por meio de
+            algoritmos que simulam o comportamento humano. São aplicações
+            desenvolvidas para realizar tarefas de modo automatizado porém, com
+            racionalidade e inteligência. Apesar de ainda não ter seu uso tão
+            avançado na medicina, é reconhecido que o uso dessa tecnologia
+            auxiliaria a área da saúde de diversas maneiras. As 4 principais
+            aplicações dessa tecnologia já utilizadas são:
+          </p>
+          <ul>
+            Tratamento de doenças, tendo o algoritmo da grande IBM,<a
+              href="https://www.ibm.com/br-pt/watson"
+            >
+              Watson</a
+            >
+            como exemplo, um algoritmo de deep learning que consegue identificar
+            as melhores opções de tratamento para cada paciente, considerando os
+            efeitos colaterais e grau de risco.<a
+              href="https://www.youtube.com/watch?v=ZPXCF5e1_HI"
+            >
+              Veja aqui como é o seu funcionamento.</a
+            >
+          </ul>
+          <ul>
+            Precisão no resultado de exames, pesquisadores conseguiram
+            desenvolver um algoritmo que conseguiu superar os melhores
+            especialistas em retina na identificação de diagnósticos de perda de
+            visão.
+          </ul>
+          <ul>
+            Associação de sintomas, função que auxilia na associação de sintomas
+            para formar um diagnóstico preciso.
+          </ul>
+          <ul>
+            Recuperação de dados, a I.A. pode ser uma grande ferramenta de
+            organização quando falamos sobre o armazenamento e a recuperação de
+            dados via nuvem.
+          </ul>
+        </div>
+      </div>
+
+      <!------- bot script -------->
+      <script
+        src="https://unpkg.com/blip-chat-widget"
+        type="text/javascript"
+      ></script>
+      <script>
+        (function() {
+          window.onload = function() {
+            new BlipChat()
+              .withAppKey(
+                "aXBpOjg0OTllNTc2LTA5NWYtNGVhNS04Y2I2LTc4MjhlZDUyMDgwYw=="
+              )
+              .withButton({ color: "#2CC3D5", icon: "" })
+              .withCustomCommonUrl("https://chat.blip.ai/")
+              .build();
+          };
+        })();
+      </script>
+
+      <h2 id="examples"><u>Proposta de pesquisa</u></h2>
+      <br />
+      <h3>Problema</h3>
+
+      <div class="row">
+        <div class="col-sm-9">
+          <img
+            class="img-resposive"
+            id="image2"
+            src="https://cdn.glitch.com/af986acf-4d2e-4df5-aaea-8e7a2ab1cbff%2F0%208QEgEk-cUBJavbMe.jpg?v=1586561565692"
+          />
+        </div>
+
+        <div class="col-sm-3">
+          <p>
+            O problema motivador da nossa pesquisa sobre Inteligência Artificial
+            na Medicina, não é exatamente, um problema. Escolhemos este tema em
+            específico pela possibilidade de desenvolver a forma como os
+            problemas médicos são resolvidos, como por exemplo, utilizando a IA
+            para realizar diagnósticos de distúrbios mentais, que inclusive, é o
+            tema do artigo
+            <a
+              href="https://publicacoeseventos.unijui.edu.br/index.php/conintsau/article/download/11129/9723"
+              >"Uso de inteligência Artificial para prevenção e diagnóstico de
+              distúrbios mentais"</a
+            >, de Morgana Pizzolatti Marins, Paula Fischer, Rafaela Luma
+            Bettega, Lucas de Oliveira Felix, Isabela Terra Raupp e Paulo
+            Roberto Laste. Outro exemplo do uso da IAM é no programa utilizado
+            no vídeo
+            <a href="https://www.youtube.com/watch?v=iqs6x3wXOAk"
+              >O papel da inteligência artificial na medicina</a
+            >
+            que é utilizado para analisar exames radiológicos que compara as
+            imagens do cérebro do paciente com as imagens de um cérebro padrão,
+            fazendo com que seja mais fácil identificar lesões, tumores e
+            deficiências cerebrais.
+          </p>
+        </div>
+      </div>
+      <br />
+
+      <h3 id="something">
+        Objetivo
+      </h3>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <p>
+            Temos como objetivo principal realizando essa pesquisa em mostrar
+            que a tecnologia é a principal aliada no avanço de áreas importantes
+            para a humanidade, como a medicina. E como novos hábitos, como usar
+            novas ferramentas<a
+              href="https://www.sciencedirect.com/science/article/pii/S0933365719303173"
+            >
+              podem prevenir males antes de que aconteçam</a
+            >, em uma analogia à quando profissionais da saúde passaram a
+            intensificar a sua higiene causando uma queda em mortes por infecção
+            após cirurgias. E passar nessa matéria;
+          </p>
+        </div>
+
+        <div class="col-sm-9">
+          <img
+            id="image3"
+            class="img-responsive"
+            src="https://cdn.glitch.com/af986acf-4d2e-4df5-aaea-8e7a2ab1cbff%2FDVAkPJXe6RxY6SAq6ajgBTV4diB2ozkuki8arf9MCFxzGmt16rrdw5aKS7LeSgkLcSQC9s11AgqZwU.png?v=1586561781923"
+          />
+        </div>
+      </div>
+      <br />
+
+      <h3 id="jus">
+        Justificativa
+      </h3>
+
+      <div class="row">
+        <div class="col-sm-9">
+          <img
+            class="img-resposive"
+            id="image4"
+            src="https://cdn.glitch.com/af986acf-4d2e-4df5-aaea-8e7a2ab1cbff%2F5-Aplicacoes-de-Inteligencia-Artificial-em-Medicina.jpg?v=1586741962247"
+          />
+        </div>
+
+        <div class="col-sm-3">
+          <p>
+            A escolha desse tema se deu por enxergarmos as possibilidades de
+            resolução que a IA traz à medicina, por exemplo, na pandemia em que
+            estamos vivendo, quem sabe se a Inteligência Artificial não poderia
+            ajudar em algo. Atualmente a tecnologia é muito importante para
+            muitas -pra não dizer todas- as áreas, e a medida que ela evolui, no
+            nosso caso, na medicina, os problemas podem ser solucionados com
+            mais facilidade. Portanto, o motivo de termos escolhido a IAM, foi
+            como dito anteriormente no "problema", poder ajudar as pessoas,
+            melhorar a forma como as coisas são feitas, a rapidez entre outras
+            coisas.
+          </p>
+          <p>
+            Existem muitos vídeos e artigos com foco na IAM, deixamos alguns
+            deles como exemplo de como a IA pode beneficiar a medicina. O vídeo
+            <a href="https://www.youtube.com/watch?v=bJY3HfkGteQ"
+              >Como a Inteligência Artificial tornará os hospitais mais
+              eficientes</a
+            >, mostra a utilização da Inteligência Artificial em várias áreas
+            diferentes em um hospital de São Paulo. Neste outro vídeo
+            <a href="https://www.youtube.com/watch?v=rcGVA5ahjes"
+              >La inteligencia artificial, nueva aliada de la medicina en
+              China</a
+            >, é mostrado o que já é realizado com a ajuda da IA na China, além
+            disso, este vídeo também diz que a IA é, ou pelo menos está, sendo
+            feita para ajudar aos médicos e não para substituí-los. Além destes
+            há muitos outros vídeos e também artigos, entre outras fontes, que
+            mostram a atuação da IA na medicina e como essa tecnologia pode
+            beneficiar esta área.
+          </p>
+        </div>
+      </div>
+      <br />
+
+      <h3 id="desgraca">
+        Mapa Mental
+      </h3>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <p>
+            Como está acontecendo
+          </p>
+          <p>
+            Análise de dados
+          </p>
+          <p>Aprendizado de máquina</p>
+          <p>Os benefícios</p>
+          <p>Dados mais precisos</p>
+          <p>Tratamentos mais adequados</p>
+          <p>Rapidez em análises</p>
+          <p>O que esperar do futuro</p>
+          <p>O avanço exponencial</p>
+          <p>Aceitação popular</p>
+          <p>Utilização em larga escala</p>
+          <p>As dificuldades</p>
+          <p>Ferramentas escassas</p>
+          <p>Poucos profissionais técnicos</p>
+          <p>Áreas distantes</p>
+        </div>
+
+        <div class="col-sm-9">
+          <img
+            id="image5"
+            class="img-responsive"
+            src="https://cdn.glitch.com/af986acf-4d2e-4df5-aaea-8e7a2ab1cbff%2Fnew_mindmap_fig.PNG?v=1588120935438"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix 
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>-->
+  </body>
+</html>
